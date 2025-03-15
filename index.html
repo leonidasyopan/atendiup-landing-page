@@ -5,65 +5,132 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AtendiUp | Eficiência Digital</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <header class="hero">
-    <img src="img/logo.png" alt="AtendiUp Logo" class="logo">
-    <h1>Eficiência Digital para seu Negócio</h1>
-    <p>Simplifique o atendimento ao seu cliente com nossos sistemas.</p>
-  </header>
+  <div id="header">
+    <div class="container">
+      <div class="grid-row">
+        <div class="grid-col-6">
+          <h2>Automatize seu Atendimento!<br>Facilidade e Eficiência para seu Negócio.</h2>
+          <hr>
+          <h3>Soluções inteligentes para otimizar seu atendimento</h3>
+          <p class="mt">Modernize sua comunicação com clientes e gerencie agendamentos e pedidos de forma simples.</p>
+          <button class="btn-trans">SAIBA MAIS</button>
+        </div>
+        <div class="grid-col-6 centered">
+          <img src="img/logo.png" alt="AtendiUp Logo" width="250">
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <section class="feature">
-    <div class="feature-content">
-      <h2>Agendamento Inteligente</h2>
-      <p>Nosso sistema de agendamento automatiza processos, economiza tempo e melhora a experiência do seu cliente.</p>
+  <div class="container mtb">
+    <div class="features-grid">
+      <div class="feature-card">
+        <img src="img/ico-01.png" alt="Automação Inteligente" width="90">
+        <h4>AUTOMAÇÃO</h4>
+        <p>Automatize processos e reduza o tempo de espera.</p>
+      </div>
+      <div class="feature-card">
+        <img src="img/ico-02.png" alt="Atendimento Rápido" width="90">
+        <h4>ATENDIMENTO ÁGIL</h4>
+        <p>Gerencie reservas e pedidos de forma eficiente.</p>
+      </div>
+      <div class="feature-card">
+        <img src="img/ico-03.png" alt="Soluções Digitais" width="90">
+        <h4>TECNOLOGIA DIGITAL</h4>
+        <p>Plataforma intuitiva e fácil de usar.</p>
+      </div>
     </div>
-    <div class="feature-image">
-      <img src="img/scheduling-placeholder.jpg" alt="Agendamento Inteligente">
-    </div>
-  </section>
+  </div>
 
-  <section class="feature feature-reverse">
-    <div class="feature-image">
-      <img src="img/delivery-placeholder.jpg" alt="Sistema de Delivery">
+  <div id="header">
+    <div class="container">
+      <div class="grid-row">
+        <div class="grid-col-6 centered">
+          <img src="img/scheduling-placeholder.jpg" alt="Sistema de Agendamentos" class="responsive-img">
+        </div>
+        <div class="grid-col-6">
+          <h2>Gestão de Agendamentos Inteligente</h2>
+          <hr>
+          <h3>Facilidade para seu negócio e seus clientes</h3>
+          <p class="mt">Permita que seus clientes agendem serviços online e evite filas e esperas desnecessárias.</p>
+        </div>
+      </div>
     </div>
-    <div class="feature-content">
-      <h2>Delivery para Restaurantes</h2>
-      <p>Gerencie pedidos com facilidade e aumente suas vendas com nosso sistema de delivery eficiente.</p>
-    </div>
-  </section>
+  </div>
 
-  <section class="testimonials">
-    <h2>O que nossos clientes dizem</h2>
-    <div class="testimonial active">"Ótimo sistema! Facilitou muito nosso atendimento."</div>
-    <div class="testimonial">"Simples, eficiente e fácil de usar. Recomendo!"</div>
-    <div class="testimonial">"Nossa produtividade aumentou muito desde que começamos a usar."</div>
-  </section>
-
-  <section class="contact">
-    <div class="contact-info">
-      <h2>Entre em Contato</h2>
-      <p><strong>Email:</strong> contato@atendiup.com.br</p>
-      <p><strong>WhatsApp:</strong> +55 48 99823-5707</p>
-      <p><strong>Redes Sociais:</strong> @atendiup</p>
+  <div id="header">
+    <div class="container">
+      <div class="grid-row">
+        <div class="grid-col-6">
+          <h2>Otimize seu Delivery com Tecnologia</h2>
+          <hr>
+          <h3>Gerencie pedidos com eficiência</h3>
+          <p class="mt">Aprimore seu serviço de entrega com uma plataforma simples e poderosa.</p>
+        </div>
+        <div class="grid-col-6 centered">
+          <img src="img/delivery-placeholder.jpg" alt="Sistema de Delivery" class="responsive-img">
+        </div>
+      </div>
     </div>
-    <div class="contact-form">
-      <form>
-        <input type="text" id="name" placeholder="Seu Nome" required>
-        <input type="email" id="email" placeholder="Seu Email" required>
-        <textarea id="message" placeholder="Sua Mensagem" required></textarea>
-        <button type="submit">Enviar</button>
+  </div>
+
+  <div class="testimonials">
+    <div class="container">
+      <h2 class="centered">O Que Nossos Clientes Dizem</h2>
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/ui-01.jpg" alt="User" class="avatar">
+            <h3>Mariana Lopes</h3>
+            <p>"O AtendiUp facilitou nosso atendimento e aumentou nossas reservas!"</p>
+          </div>
+          <div class="carousel-item">
+            <img src="img/ui-02.jpg" alt="User" class="avatar">
+            <h3>Carlos Mendes</h3>
+            <p>"Com o sistema de delivery, nossas vendas cresceram significativamente!"</p>
+          </div>
+          <div class="carousel-item">
+            <img src="img/ui-03.jpg" alt="User" class="avatar">
+            <h3>Juliana Silva</h3>
+            <p>"Simples, rápido e eficaz! Nossos clientes adoram a facilidade!"</p>
+          </div>
+        </div>
+        <button class="carousel-control prev">❮</button>
+        <button class="carousel-control next">❯</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <h2 class="centered">Fale Conosco</h2>
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Seu Nome" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Seu Email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn-green2">ENVIAR MENSAGEM</button>
       </form>
     </div>
-  </section>
+  </div>
 
-  <footer>
-    <p>&copy; 2025 AtendiUp | Todos os direitos reservados.</p>
-  </footer>
+  <div id="copyrights">
+    <div class="container">
+      <p>&copy; 2025 AtendiUp. Todos os direitos reservados.</p>
+    </div>
+  </div>
 
-  <script src="js/scripts.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
